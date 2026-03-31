@@ -1,6 +1,16 @@
 # pixelpeople
 
-Create cute pixel art people in React.
+[![npm version](https://img.shields.io/npm/v/pixelpeople.svg)](https://www.npmjs.com/package/pixelpeople) [![license](https://img.shields.io/npm/l/pixelpeople.svg)](https://github.com/YoucefHQ/pixelpeople/blob/main/LICENSE)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YoucefHQ/pixelpeople/main/docs/pixelpeople.jpg" alt="PixelPeople" width="600">
+</p>
+
+<p align="center">Create cute pixel art people in React.</p>
+
+<p align="center">
+  <a href="https://youcefhq.github.io/pixelpeople/">Live Demo</a>
+</p>
 
 ## Install
 
@@ -65,13 +75,6 @@ Renders a row of pixel people side by side.
 
 When a color is omitted, each person gets an independently randomized color.
 
-## Why SVG?
-
-- Scales to any size without blur
-- Works with SSR and static rendering
-- Copy-paste into Figma, emails, anywhere
-- No canvas, no WebGL, no nonsense
-
 ## License
 
-MIT
+[MIT](https://opensource.org/license/mit)
