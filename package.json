@@ -1,0 +1,56 @@
+{
+  "name": "pixelpeople",
+  "version": "1.0.0",
+  "description": "Create cute pixel art people in React.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "react",
+    "pixel-art",
+    "pixel",
+    "avatar",
+    "svg",
+    "component",
+    "people",
+    "character",
+    "retro",
+    "8bit",
+    "generative"
+  ],
+  "license": "MIT",
+  "homepage": "https://youcefhq.github.io/pixelpeople/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YoucefHQ/pixelpeople.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YoucefHQ/pixelpeople/issues"
+  },
+  "sideEffects": false
+}
