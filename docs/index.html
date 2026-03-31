@@ -286,8 +286,8 @@
       font-family: 'Courier New', monospace;
       font-size: 11px;
       color: #5BFF5B;
-      white-space: pre;
-      overflow-x: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
     }
 
     .section-body {
@@ -378,8 +378,8 @@
       font-size: 13px;
       line-height: 1.7;
       color: #e0e0e0;
-      overflow-x: auto;
-      white-space: pre;
+      white-space: pre-wrap;
+      word-break: break-word;
       box-shadow:
         -4px 0 0 0 #333,
          4px 0 0 0 #333,
@@ -430,6 +430,7 @@
       padding: 10px 16px;
       border-bottom: 1px solid #222;
       color: #ccc;
+      word-break: break-word;
     }
     .props-table td:first-child {
       color: #82aaff;
@@ -454,6 +455,8 @@
     }
     @media (max-width: 600px) {
       .features-grid { grid-template-columns: 1fr; }
+      .props-table th,
+      .props-table td { padding: 8px 10px; font-size: 11px; }
     }
     .feature-card {
       background: #12122a;
